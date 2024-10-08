@@ -1,7 +1,9 @@
-import sys
-sys.path.insert(0, '/app')
+import models
+db = models.db
+AssetType = models.AssetType
+Building = models.Building
+EmployeeDepartment = models.EmployeeDepartment
 
-from models import db, AssetType, Building, EmployeeDepartment
 
 def initialize():
     # Create the tables
