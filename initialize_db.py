@@ -1,4 +1,6 @@
-#from .models import db, AssetType, Building, EmployeeDepartment
+import sys
+sys.path.insert(0, '/app')
+
 from models import db, AssetType, Building, EmployeeDepartment
 
 def initialize():
