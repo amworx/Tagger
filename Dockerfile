@@ -5,6 +5,7 @@ WORKDIR /app
 COPY requirements.txt .
 
 RUN pip install -r requirements.txt
+RUN python -m app.initialize_db && python app.py
 
 COPY . .
 
