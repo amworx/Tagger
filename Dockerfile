@@ -8,5 +8,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-WORKDIR /app
-RUN cd .. && python /app/initialize_db.py && cd /app && python app.py
+RUN python initialize_db.py && python app.py
