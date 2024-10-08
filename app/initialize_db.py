@@ -3,7 +3,7 @@
 # AssetType = models.AssetType
 # Building = models.Building
 # EmployeeDepartment = models.EmployeeDepartment
-from . models import db, AssetType, Building, EmployeeDepartment
+from models import db, AssetType, Building, EmployeeDepartment
 
 
 def initialize():
