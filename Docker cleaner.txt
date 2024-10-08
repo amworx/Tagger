@@ -1,0 +1,5 @@
+#Kill all containers
+docker kill $(docker ps -q)
+
+#Remove all containers
+docker container prune --force
