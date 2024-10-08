@@ -1,4 +1,4 @@
-from models import db, AssetType, Building, EmployeeDepartment
+from .models import db, AssetType, Building, EmployeeDepartment
 
 def initialize():
     # Create the tables
