@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tag Generator</title>
+</head>
+<body>
+    <h1>Tag Generator</h1>
+    <form method="post">
+        {{ form.hidden_tag() }}
+        {{ form.asset_type.label }} {{ form.asset_type() }}
+        {{ form.building.label }} {{ form.building() }}
+        {{ form.employee_department.label }} {{ form.employee_department() }}
+        <input type="submit" value="Generate Tag">
+    </form>
+</body>
+</html>
